@@ -59,7 +59,7 @@ int main()
    {       
           //remove patient
           cout<<"lets remove a patient"<<endl;
-          cout<<"enter carecard number of the patient u wanna delete"<<endl;
+          cout<<"enter carecard number of the patient you want to delete"<<endl;
           string carecardno;
           cin>>carecardno;
           Patient temporary_patient(carecardno);
@@ -74,7 +74,7 @@ int main()
         { 
           //search patient
           cout<<"lets search for a patient"<<endl;
-          cout<<"enter carecard number of the patient u wanna search"<<endl;
+          cout<<"enter carecard number of the patient you want to search"<<endl;
           string carecardno;
           cin>>carecardno;
           Patient temporary_patient(carecardno);
@@ -91,7 +91,7 @@ int main()
           //modify patient details
           int get;	
           cout<<"lets modify patient details"<<endl;
-          cout<<"enter carecard number of the patient u wanna modify"<<endl;
+          cout<<"enter carecard number of the patient you want to modify"<<endl;
           string carecardno;
           cin>>carecardno;
           Patient temporary_patient(carecardno);
@@ -105,14 +105,14 @@ int main()
           	{
 
           		case 1:
-          		{   cout<<"enter name plz"<<endl;
+          		{   cout<<"enter name please"<<endl;
           			string namem;
           			cin>>namem;
           			rp->setName(namem);
 
           		}break;
           		case 2:
-          		   {cout<<"enter addressplz"<<endl;
+          		   {cout<<"enter address please"<<endl;
           			string addressm;
           			cin>>addressm;
           			rp->setAddress(addressm);
@@ -120,14 +120,14 @@ int main()
           		}break;
           		
           		case 3:
-          		   {cout<<"enter phone no plz"<<endl;
+          		   {cout<<"enter phone no please"<<endl;
           			string phoneno;
           			cin>>phoneno;
           			rp->setPhone(phoneno);
 
           		}break;
           		case 4:
-          		   {cout<<"enter email plz"<<endl;
+          		   {cout<<"enter email please"<<endl;
           			string emailm;
           			cin>>emailm;
           			rp->setEmail(emailm);
@@ -137,12 +137,12 @@ int main()
           		
           		default:
 
-          		cout<<"deafult case"<<endl;
+          		cout<<"default case"<<endl;
                 break;
           	}
           
             
-            	cout<<"If u still wanna continue press 5 else press 10";
+            	cout<<"If you still want to continue press 5 else press 10";
             	cin>>flag1;
           
           }
@@ -163,9 +163,9 @@ int main()
 }
     }
 
-    cout<<"If you still wanna continue press 1 and if you dont want to do anymore press 2."<<endl;
+    cout<<"If you still want to continue press 1 and if you dont want to do anymore press 2."<<endl;
     cin>>flag;
-    
+ 
     
 
 }   while(flag==1);
